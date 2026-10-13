@@ -6,6 +6,8 @@ UE 5.7 C++ 实现的连裤袜穿着与下拉交互，配套黑色/白色细纱�
 
 这是**沿身体轮廓引导的整件服装变形**。最终交互使用程序网格、截面映射和局部接触修正，不依赖 Chaos Cloth。当前范围到脚踝，尚未实现跨过脚掌并完全脱离身体。
 
+![黑丝整体展示](docs/images/00-black-overview.png)
+
 ![白丝整体展示](docs/images/01-white-overview.png)
 
 ## 功能
@@ -51,7 +53,7 @@ script = STOCKINGS_REPO_ROOT + "/Tools/build_materials.py"
 exec(compile(open(script, encoding="utf-8").read(), script, "exec"))
 ```
 
-详见[最终制作流程](docs/workflow.md)、[算法结构](docs/architecture.md)、[接入教程](docs/integration.md)、[材质教程](docs/materials.md)及[全部八张截图](docs/gallery.md)。
+详见[最终制作流程](docs/workflow.md)、[算法结构](docs/architecture.md)、[接入教程](docs/integration.md)、[材质教程](docs/materials.md)及[全部九张截图](docs/gallery.md)。
 
 ## 效果细节
 
