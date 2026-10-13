@@ -1,0 +1,23 @@
+{
+  "FileVersion": 3,
+  "Version": 100,
+  "VersionName": "1.0.0",
+  "FriendlyName": "Interactive Stockings",
+  "Description": "Guided pantyhose gathering, fine gauze rendering and inspection camera for UE 5.7.",
+  "Category": "Character",
+  "CreatedBy": "DANTACCC",
+  "CanContainContent": false,
+  "Plugins": [
+    {
+      "Name": "ProceduralMeshComponent",
+      "Enabled": true
+    }
+  ],
+  "Modules": [
+    {
+      "Name": "StockingsInteraction",
+      "Type": "Runtime",
+      "LoadingPhase": "Default"
+    }
+  ]
+}
